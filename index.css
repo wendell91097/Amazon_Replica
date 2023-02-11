@@ -1,0 +1,129 @@
+* { 
+    /* border: solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    display: grid;
+    justify-content: center;
+}
+.brand {
+    display: grid;
+    justify-content: center;
+}
+
+.login-box {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 2px;
+}
+
+form {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.login-items {
+    padding-top: 5;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    display: grid;
+}
+
+.signin-prompt {
+    margin-top: 7px;
+    height: 30px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+.input-box {
+    width: 300px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.pw-area {
+    margin-bottom: 1px;
+}
+
+.forgot-password {
+    padding-left: 105px;
+    text-decoration: none;
+}
+.continue-button {
+    background-color: rgb(244, 189, 11);
+    height: 33px;
+    font-weight: 100;
+    border: 1px solid rgb(139, 85, 34);
+    border-radius: 2px;
+}
+
+.continue-button-text {
+    color: black;
+}
+.help-redirect {
+    text-decoration: none;
+}
+
+.newuser {
+    margin-top: 0px;
+    display: grid;
+
+    margin-bottom: 50px;
+}
+.nu-line {
+    z-index: -1;
+    color: rgb(138, 138, 138);
+}
+.nu-text {
+    z-index: 1;
+    position: fixed;
+    top: 62.7%;
+    left: 46.5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    background-color: white;
+
+}
+
+.register-button{
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(208, 208, 208);
+    height: 33px;
+    font-weight: 100;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    text-decoration-style: none;
+}
+
+.register-button-text {
+    color: black;
+}
+
+.footer {
+    border-top: 1px solid gray;
+    padding-top: 30px;
+    display: grid;
+    justify-items: center;
+    font-size: smaller;
+}
+
+.use {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.copy {
+    text-emphasis: none;
+}
+
+a {
+    text-decoration: none;
+}
